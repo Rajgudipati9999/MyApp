@@ -1,0 +1,12 @@
+.icons{
+    height: 60vh;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.title-head{
+    color:#ffffff;
+    font-weight: bold;
+    font-size: 30px;
+}

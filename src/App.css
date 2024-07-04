@@ -1,0 +1,8 @@
+.app{
+  height: 95vh;
+  background-color: hsl(212, 29%, 13%);
+  padding-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}

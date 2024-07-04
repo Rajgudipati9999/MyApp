@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Rajgudipati9999/portfolio-app.git/static/css/main.03c94aac.css",
+    "main.js": "/Rajgudipati9999/portfolio-app.git/static/js/main.92d73d47.js",
+    "static/js/453.f4fbaa6d.chunk.js": "/Rajgudipati9999/portfolio-app.git/static/js/453.f4fbaa6d.chunk.js",
+    "index.html": "/Rajgudipati9999/portfolio-app.git/index.html",
+    "main.03c94aac.css.map": "/Rajgudipati9999/portfolio-app.git/static/css/main.03c94aac.css.map",
+    "main.92d73d47.js.map": "/Rajgudipati9999/portfolio-app.git/static/js/main.92d73d47.js.map",
+    "453.f4fbaa6d.chunk.js.map": "/Rajgudipati9999/portfolio-app.git/static/js/453.f4fbaa6d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.03c94aac.css",
+    "static/js/main.92d73d47.js"
+  ]
+}
