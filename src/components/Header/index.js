@@ -1,19 +1,17 @@
+import { Link } from 'react-router-dom';
 import './index.css'
 
-const Header = function () {
+const Header = () => {
     return (
-        <div>
-            <h2 class='title-head'>R.</h2>
-            <div className='icons'>
-                <i class="fa-solid fa-address-card fa-2x"></i>
-                <i class="fa-solid fa-laptop-code fa-2x"></i>
-                <i class="fas fa-code fa-2x"></i>
-                <i class="fa-solid fa-school fa-2x"></i>
-                <i class="fas fa-envelope fa-2x"></i>
-            </div>
-
-        </div>
+    <div className='item-container'>
+        <ul className="items">
+            <Link to='/' className="item">About</Link>
+            <Link to='/place' className="item">Place</Link>
+            <Link to='/projects' className='item'>Projects</Link>
+            <li className="item">Education</li>
+            <li className="item">Skills</li>
+        </ul>
+    </div>
     )
 }
-
-export default Header ;
+export default Header;
