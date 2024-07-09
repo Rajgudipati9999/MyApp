@@ -1,0 +1,58 @@
+.myplace-container {
+    padding: 20px;
+    text-align: center;
+    background-color: #333;
+  }
+  
+  .myplace-title {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .myplace-card {
+    background-color: #ddd;
+    border: 1px solid #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  .myplace-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .myplace-image {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  .myplace-card h3 {
+    margin: 20px 0 10px;
+    font-size: 1.5em;
+    color: #007bff;
+  }
+  
+  .myplace-card {
+    margin: 0 0 10px;
+    font-size: 1em;
+    color: #666;
+  }
+  .location {
+    font-weight: bold;
+    color: #007bff;
+  }
+  .myplace-card a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+  }
+  
+  .myplace-card a:hover {
+    text-decoration: underline;
+  }
+  

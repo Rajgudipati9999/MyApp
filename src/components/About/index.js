@@ -10,10 +10,10 @@ const About = function(){
     className="main-container"
     ><div className="container">
             <div className="content">
-                <h1 className="heading">
+                <h1 className="about-heading">
                     Full Stack Developer 
                 </h1>
-                <p className="description">
+                <p className="about-description">
                 Full-Stack Developer specializing in the MERN stack (MongoDB, Express.js, React, Node.js), crafting dynamic, high-performance web applications with seamless user experiences and robust server-side functionality.
                 </p>
             </div>

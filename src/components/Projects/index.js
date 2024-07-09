@@ -1,35 +1,29 @@
-import {motion} from 'framer-motion'
+import React from 'react';
 import './index.css';
 
-const Projects = () => (
-<motion.div 
-initial={{opacity : 0}}
-animate={{opacity : 1}}
-exit={{opacity : 0}}
-className='projects'
->
-<h2>My Projects</h2>
-    <div className="project-list">
-      <div className="project-item">
-        <h1>Password Manager</h1>
-        <p>This is the web app where a user can save all his passwords</p>
-        <a href='https://rajgudipati9999.github.io/password-manager'>Project Link</a>
-      </div>
-      <div className="project-item">
-        <h1>Match Game</h1>
-        <p>This is the web app where we have to match displayed image with thumbnail images </p>
-            <a href='https://rajgudipati9999.github.io/match-game'>Project Link</a>
-      </div>
+const projects = [
+  { name: 'Jobby App', description: 'This is the first project.', link: '' },
+  { name: 'Match Game', description: 'This is the second project.', link: 'https://rajgudipati9999.github.io/match-game' },
+  { name: 'Password Manager', description: 'This is the third project.', link: 'https://rajgudipati9999.github.io/password-manager' },
+  { name: 'Ipl Dashboard', description: 'This is the fourth project.', link: '#' },
+  // Add more projects as needed
+];
 
-      <div className="project-item">
-        <h1>
-          Jobby App
-        </h1>
-        <p>This is the web app where you can find the Right Job that matches your skills</p>
-        <a href='http://rajgudipati9999.github.io/jobby-app' target='new' rel='noreferrer'>Project Link</a>
+const Projects = () => {
+  return (
+    <div className="projects-container">
+      <h2 className="projects-title">Projects</h2>
+      <div className="projects-grid">
+        {projects.map((project, index) => (
+          <div className="project-card" key={index}>
+            <h3>{project.name}</h3>
+            <p>{project.description}</p>
+            <a href={project.link} target="_blank" rel="noopener noreferrer">View Project</a>
+          </div>
+        ))}
       </div>
     </div>
-  </motion.div>
-);
+  );
+};
 
-export default Projects
+export default Projects;
